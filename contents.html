@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contents</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header of Site -->
+    <div id="header">
+        <!-- Hero Image and Text -->
+        <div class="title">
+            <h1>SMOKING</h1>
+        </div>
+        
+        <!-- Navigation Bar -->
+        <nav>
+            <div id="smoking-icon">
+                <img src="images/smoking_icon.png" alt="smoking-icon">
+                <span id="tooltip">Sign up to Quit</span> 
+            </div>
+            <div id="nav-bar">
+                <a id="nav-home" href="index.html">Home</a>
+                <a id="nav-history" href="history.html">History</a>
+                <a id="nav-content" class="active" href="contents.html">Contents</a>
+                <a id="nav-gov" href="gov.html">Government</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Content of a cigarette -->
+    <div id="content">
+        <div id="parallax-smoke"></div>
+        <p id="content-start">Contents of a cigarette</p>
+        <p id="content-body">
+            We all know there are many harmful chemicals inside a cigarette.
+            Here are the most commonly found ones.
+        </p>
+        <div id="slideshow">
+            <div class="slide">
+                <p class="title">Nicotine</p>
+                <p class="body">
+                    Nicotine is a colourless, poisonous alkaloid derived from the tobacco plant. 
+                    It is a powerful drug, which affects the brain and quickly becomes addictive.
+                </p>
+            </div>
+            <div class="slide">
+                <p class="title">Tar</p>
+                <p class="body">
+                    Tar is a sticky brown substance that forms when tobacco cools and condenses. 
+                    It collects in the lungs and can cause cancer.
+                </p>
+            </div>
+            <div class="slide">
+                <p class="title">Carbon monoxide</p>
+                <p class="body">
+                    An odourless, colourless gas that is released from burning tobacco. 
+                    When it is inhaled it enters the blood stream and interferes with the working of the heart and the blood vessels.
+                </p>
+            </div>
+            <div class="slide">
+                <p class="title">Arsenic</p>
+                <p class="body">
+                    Arsenic-containing pesticides used in tobacco farming occur in small quantities in cigarette smoke. 
+                    Arsenic is commonly found in rat poison.
+                </p>
+            </div>
+            <div class="slide">
+                <p class="title">Ammonia</p>
+                <p class="body">
+                    Ammonia is a toxic, colourless gas with a sharp odour. 
+                    Ammonia compounds are commonly used in cleaning products and fertilisers.
+                </p>
+            </div>
+            <div class="slide">
+                <p class="title">Acetone</p>
+                <p class="body">
+                    Acetone is a colourless, highly volatile and flammable liquid with a characteristic pungent odour.
+                    Acetone is used to dissolve many plastics and some synthetic fibers.
+                </p>
+            </div>
+            <button type="button" id="prev">&#10094;</button>
+            <button type="button" id="next">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="break"></div>
+
+    <!-- Possible illnesses -->
+    <div id="illness">
+        <p id="illness-start">3 possible illnesses from smoking</p>
+        <div id="table-tabs">
+            <div id="tab-buttons">
+                <button type="button" id="blung" class="b-tab default-tab">Lung Cancer</button>
+                <button type="button" id="bcopd" class="b-tab">COPD</button>
+                <button type="button" id="bchd" class="b-tab">CHD</button>
+            </div>
+            <div id="lungcancer" class="tab">
+                <p class="title">Lung Cancer</p>
+                <p class="body">
+                    Smoking cigarettes increase your risk of developing lung cancer and other types of cancer, such as 
+                    <a href="https://www.nhs.uk/conditions/oesophageal-cancer/" target="_blank">oesophageal cancer</a>
+                     and 
+                    <a href="https://www.nhs.uk/conditions/mouth-cancer/" target="_blank">mouth cancer</a>
+                    .
+                    Lung cancer is one of the most common and serious types of cancer.
+                    Symptoms include persistent cough, coughing up blood and persistent breathlessness.
+                </p>
+                <a href="https://www.nhs.uk/conditions/lung-cancer/" target="_blank" class="learnmore">Click Me to learn more</a>
+            </div>
+            <div id="copd" class="tab">
+                <p class="title">Chronic Obstructive Pulmonary Disease (COPD)</p>
+                <p class="body">
+                    COPD refers to a group of diseases that cause airflow blockage and breathing-related problems. 
+                    It includes 
+                    <a href="https://www.mayoclinic.org/diseases-conditions/emphysema/symptoms-causes/syc-20355555" target="_blank">emphysema</a>
+                     and 
+                    <a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/chronic-bronchitis" target="_blank">chronic bronchitis</a>
+                    . 
+                    Symptoms include incresing breathlessness, persistent cough with phlegm and frequent chest infections. 
+                    The harmful chemicals in cigarette smoke can damage the lining of the lungs and airways. 
+                    Some research also suggests that being exposed to other people's cigarette smoke may increase your risk of COPD.
+                </p>
+                <a href="https://www.cdc.gov/copd/index.html" target="_blank" class="learnmore">Click Me to learn more</a>
+            </div>
+            <div id="chd" class="tab">
+                <p class="title">Coronary Heart Disease (CHD)</p>
+                <p class="body">
+                    Coronary heart disease is the term that describes what happens when your heart's blood supply is blocked or interrupted by a build-up of residue in the coronary arteries from cigarette smoke. 
+                    Symptoms include chest pain, shortness of breath and feeling faint. 
+                    Both nicotine and carbon monoxide put a strain on the heart by making it work faster. 
+                    They also increase your risk of blood clots. 
+                    Other chemicals in cigarette smoke can damage the lining of your coronary arteries, leading to furring of the arteries.
+                </p>
+                <a href="https://www.nhs.uk/conditions/coronary-heart-disease/" target="_blank" class="learnmore">Click Me to learn more</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
